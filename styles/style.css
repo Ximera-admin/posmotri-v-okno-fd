@@ -288,12 +288,13 @@ text-decoration: underline;
 }
 
 .content__list-item:focus {
-  outline: none;
+  outline: 10px red;
 }
 
-.content__list-item:focus-visible {
-  outline: 1px solid white;
-}
+.content__video-card:focus-visible {
+  /* outline: 1px solid white; */
+  outline: none;
+} 
 
 .content__video-card-title {
   font-family: Oswald;
@@ -310,7 +311,6 @@ text-decoration: underline;
   font-weight: 400;
   line-height: 16.2px;
   color: white;
-  line-height: 26px;
 }
 
 .content__video-card-thumbnail {
@@ -319,4 +319,3 @@ text-decoration: underline;
   object-fit: cover;
   object-position: center;
 }
-
